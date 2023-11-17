@@ -5,6 +5,6 @@ function smallest(arr){
              small = arr[i];
         }
     }
-    return small;
+    return sm
 }
 console.log(smallest([1,2,3,4,5,]))
