@@ -1,8 +1,9 @@
-function oddNumber(){
-    for (i=1; i<=100; i++){
-        if(i%2 !==0 ){
-            console.log(i);
-        }
+function squareNumber(number){
+    if (number===!number||number===null||number===undefined){
+        return 0;
     }
+    var square= number * number;
+    return square;
 }
-oddNumber()
+console.log (squareNumber(4))
+

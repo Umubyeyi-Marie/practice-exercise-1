@@ -9,4 +9,5 @@ function displayPattern (size){
             }
         }
 }
+}
 displayPattern(5);
